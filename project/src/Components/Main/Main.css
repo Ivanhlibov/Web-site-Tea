@@ -1,0 +1,15 @@
+
+
+.top{
+    background-image: url(../../Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    background-size: cover;
+    
+
+}
+
+.top__inner{
+    min-height: 500px;
+    
+}
