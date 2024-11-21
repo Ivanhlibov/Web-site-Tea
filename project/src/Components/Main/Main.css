@@ -37,7 +37,7 @@ padding: 0;
 .top{
     background-image: url(../../Images/Background.jpg);
     background-repeat: no-repeat;
-    background-position: bottom center ;
+    background-position: bottom left ;
     background-size: cover;
     
 
