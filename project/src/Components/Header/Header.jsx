@@ -4,6 +4,8 @@ import Buy from '../../Images/Buy.svg'
 import User from '../../Images/User.svg'
 import Search from '../../Images/Search.svg'
 import './Header.css'
+import '../../index.css'
+
 const Header = () => {
   return (
     <div>
@@ -14,6 +16,12 @@ const Header = () => {
                     <img src={Tea} alt="" />
                 </a>
                 <nav className="menu">
+                    <button className="menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                     <ul className='menu__list' >
                         <li className="menu__item">
                             <a href="#" className="menu__link">Black</a>

@@ -1,4 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
+html{
+    box-sizing: border-box;
+}
+*::after,
+*::before{
+    box-sizing: inherit ;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+body{
+color: #151618;
+font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.5;
+
+margin: 0;
+padding: 0;
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 .top{
     background-image: url(../../Images/Background.jpg);
@@ -11,5 +45,35 @@
 
 .top__inner{
     min-height: 500px;
-    
+    color: white;
+    font-family: 'Cormorant',  serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+
+.top__title{
+ font-size: 60px;
+ margin-bottom: 20px;
+ max-width: 780px;
+ line-height: 1;
+ font-weight: 400;
+}
+
+.top__text{
+font-size: 24px;
+margin-bottom: 48px;
+max-width: 568px;
+line-height: normal;
+}
+
+.blockqoute__text{
+    text-align: center;
+    font-family: 'Cormorant',  serif;
+    font-size: 40px;
+    max-width: 704px;
+    margin: 0 auto ;
+    margin-top: 150px;
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Main.css'
+import '../../index.css'
 const Main = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Main = () => {
           <div className="container">
             <div className="top__inner">
               <h1 className="top__title">
-                A cup of tea is a moment of colm in the chaos og life
+                A cup of tea is a moment of colm in the chaos of life
                 <p className="top__text">
                   Wide selection of high-quality teas from all over the world, cafefully
                   curated by tea experts.

@@ -25,6 +25,11 @@ line-height: 1.5;
 
 }
 
+
+button{
+    padding: 0;
+    border: none;
+}
 .container{
     max-width: 1240px;
     margin: 0 auto ;
@@ -42,6 +47,24 @@ line-height: 1.5;
 
 .logo{
     margin-bottom: 35px;
+}
+
+.menu__btn{
+    display: none;
+    width: 40px;
+    width: 20px;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.menu__btn span {
+    background-color: black;
+    height: 2px;
+    width: 100%;
+    margin-top: 2px;
+
 }
 
 .menu__list{
