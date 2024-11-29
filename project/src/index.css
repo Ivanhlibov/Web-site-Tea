@@ -46,6 +46,10 @@
     .logo img {
         width: 40px;
     }
+
+    .menu__list{
+      width: 355px !important ; 
+    }
 }
 
 
@@ -88,17 +92,21 @@
 
 @media (max-width: 860px){
     .menu__list{
+        transform: translateY(-100%);
         position: absolute;
         top: 0;
-        left: 0;
-        right: 0;
-        width: 360px;
+        left: 0  ;
+        right: 0px !important ;
+        width: 480px;
         margin: 0 auto ;
         background-color: white;
         display: block;
         text-align: center;
         padding-top: 68px;
         
+    }
+      .menu__list.menu__list--open{
+        transform: translateY(0%);
     }
 
     .menu__btn{
@@ -116,6 +124,10 @@
         margin-left: auto;
         margin-right: 154px;
     }
+
+    .mobile-nav, .menu_close{
+        display: block;
+        }
 }
 
 
@@ -125,6 +137,9 @@
     padding-right: 0px !important ;
 
  }
+ .menu__list{
+    width: 360px;
+}
 
  .header__inner{
     padding-left: 0px;
