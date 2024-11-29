@@ -88,7 +88,17 @@
 
 @media (max-width: 860px){
     .menu__list{
-        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 360px;
+        margin: 0 auto ;
+        background-color: white;
+        display: block;
+        text-align: center;
+        padding-top: 68px;
+        
     }
 
     .menu__btn{

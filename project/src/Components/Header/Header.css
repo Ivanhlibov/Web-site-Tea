@@ -22,6 +22,7 @@ font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 font-weight: 300;
 line-height: 1.5;
+font-family: "Cormorant", serif;
 
 }
 
@@ -29,6 +30,7 @@ line-height: 1.5;
 button{
     padding: 0;
     border: none;
+    background-color: transparent;
 }
 .container{
     max-width: 1240px;
@@ -74,6 +76,9 @@ button{
     font-weight: 400;
     font-size: 18px;
     margin-left: 85px;
+    /* padding-right: 40px; */
+    padding: 0;
+    
      
 }
 
@@ -86,4 +91,44 @@ button{
 
 .user-actions__item-search{
     margin-left: 80px;
+}
+
+.mobile_menu{
+    /* padding-right: 40px; */
+    padding: 0;
+}
+.menu_close-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.mobile-actions{
+padding: 0;
+}
+
+.menu__item{
+margin-bottom: 30px;
+font-size: 24px;
+font-family: "Cormorant", serif;}
+
+.mobile_menu{
+    
+    padding-top: 60px;
+    margin: 60 30px;
+    border-top: 2px solid  #f7f2ea ; 
+}
+
+.mobile-menu__item{
+    margin-bottom: 35px;
+
+}
+
+.mobile-actions{
+    background-color: #f7f2ea ; 
+    height: 60px;
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
