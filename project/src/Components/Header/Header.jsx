@@ -11,27 +11,25 @@ import '../../index.css';
 const Header = () => {
   useEffect(() => {
     const menuBtn = document.querySelector('.menu__btn');
-    const menuClose = document.querySelector('.menu_close-btn');
     const menuList = document.querySelector('.menu__list');
+    const closeBtn = document.querySelector('.menu_close-btn')
 
     if (menuBtn && menuList) {
-      menuBtn.addEventListener('click', () => {
-        menuList.classList.add('menu__list--open');
-      });
-    }
+      const toggleMenu = () => {
+        menuList.classList.toggle('menu__list--open');
+      };
+      // Обработка кнопки
+      menuBtn.addEventListener('click', toggleMenu);
+      closeBtn.addEventListener('click', toggleMenu);
 
-    if (menuClose && menuList) {
-      menuClose.addEventListener('click', () => {
-        menuList.classList.remove('menu__list--open');
-      });
+      // А тут само действие
+      return () => {
+        menuBtn.removeEventListener('click', toggleMenu);
+        closeBtn.removeEventListener('click', toggleMenu  )
+      };
     }
-
-    return () => {
-      // Очищаем обработчики событий при размонтировании компонента
-      if (menuBtn) menuBtn.removeEventListener('click', () => {});
-      if (menuClose) menuClose.removeEventListener('click', () => {});
-    };
   }, []);
+
 
   return (
     <div>
