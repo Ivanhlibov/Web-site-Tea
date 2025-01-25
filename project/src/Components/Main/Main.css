@@ -21,7 +21,7 @@ color: #151618;
 font-family: 'Open Sans', sans-serif;
 font-size: 20px;
 font-weight: 300;
-line-height: 1.5;
+line-height: normal;
 
 margin: 0;
 padding: 0;
@@ -34,6 +34,11 @@ padding: 0;
 .container{
     max-width: 1240px !important ;
     margin: 0 auto  !important ;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+    
+    
 
   
 }
@@ -71,7 +76,7 @@ padding: 0;
 font-size: 24px;
 margin-bottom: 48px;
 max-width: 568px;
-line-height: normal;
+
 }
 
 .blockqoute__text{
@@ -82,13 +87,14 @@ line-height: normal;
     margin: 0 auto  !important ;
     margin-top: 150px !important ;
     /* margin-right: 130px !important ; */
-    
+   
 }
 
 
 .assortment{
     margin-top: 150px;
     margin-left: 40px;
+    
 
 }
 
@@ -113,9 +119,7 @@ line-height: normal;
     font-family: 'Cormorant', serif;
 }
 
-.assortment__title{
 
-}
 .title{
     text-align: center;
     margin-bottom: 60px;
@@ -127,6 +131,7 @@ line-height: normal;
 .reviews{
   background-color: #f7f2ea;  
   padding: 60px 0;
+  
 
 }
 
@@ -150,3 +155,376 @@ margin-bottom: 10px;
 font-weight: 600;
 }
 
+.main-blog__list{
+    padding: 0;
+    display: flex;
+   flex-wrap: wrap;
+   gap: 40px 38px !important ;
+
+    
+}
+
+
+
+.main-blog{
+    padding: 150px 0;
+}
+
+
+.main-blog__item{
+    flex-basis: 520px;
+    display: flex;
+    gap: 0 20px;
+
+}
+
+.main__blog-title{
+    font-family: "Cormorant", serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 10px;
+    min-height: 86px;
+
+}
+
+.main__blog__item-author{
+    font-weight: 13;
+}
+
+.main__blog__item-link{
+    font-size: 13px;
+    margin-top: auto;
+    position: relative;
+}
+
+.main__blog-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main__blog__item-link::after{
+    content: '';
+    /* background-image: url(../../Images/Icon); */
+    width: 5px;
+    height: 10px;
+    margin-left: 8px;
+    position: absolute;
+    bottom: 3px;
+
+}
+
+.main__blog__link{
+    padding: 12px 41px;
+    display: flex;
+    justify-content: center;
+    margin: 72px auto ;
+    border: 1px solid #151618 ;
+    width: 152px;
+}
+
+.mailing-list{
+    
+padding: 100px 0;
+background-color: #f7f2ea;
+background-image: url(../../Images/tea-1.png);
+background-repeat: no-repeat;
+background-position: bottom right;
+/* height: 550px !important ; */
+}
+
+.mailing-list__title {
+    text-align: left;
+    margin-bottom: 50px;
+    /* margin-top: 100px; */
+
+}
+
+
+
+.mailing-list__inner{
+display: flex;
+gap: 60px  40px;
+padding: 20px;
+
+}
+.mailing-list__text{
+line-height: 1.6;
+flex-basis: 800px !important ;
+/* margin-top: 100px; */
+height: 111px;
+margin-bottom: 50px;
+
+}
+
+/* .mailing-list__form{
+    display: flex;
+    flex-wrap: wrap;
+   
+    flex-basis: 580px;
+} */
+
+.mailing-list__btn{
+background-color: white;
+border: 1px solid #151618 ;
+padding: 10px 25px;
+font-size: 20px;
+font-weight: 300;
+}
+
+.mailing-list__email{
+    margin-bottom: 20px;
+border: none;
+border-bottom: 1px solid #b8b58b ;
+background-color: transparent;
+/* padding: 3px 15px; */
+width: 435px;
+margin-right: 25px;
+font-family: 'Open Sans',  serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.5;
+color: #060606;
+
+}
+
+.mailing-list__email::placeholder{
+font-family: 'Open Sans',  serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: 1.5;
+color: #b8b58b;
+
+}
+
+
+.checkbox__text {
+    display: inline-block; /* Или block, если необходимо */
+    width: 440px;
+    margin-left: 10px; /* Для отступа от чекбокса */
+    flex-shrink: 0; /* Чтобы ширина не сжималась в flex-контейнере */
+    margin-top: 188px;
+    margin-left: 20px;
+}
+
+.checkbox-style{
+position: absolute !important ;
+width: 10px !important ;
+height: 10px !important ;
+border: 1px solid #151618 !important ;
+margin-left: -20px;
+
+}
+.checkbox{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    padding-left: 20px;
+    
+}
+.mailing-list__label{
+margin-top: 15px;
+display: flex !important ;
+flex-direction: row !important ;
+margin-left: 20px;
+align-items: center !important ;
+
+}
+
+.checkbox-style {
+    position: relative !important ; /* Вместо absolute */
+    display: flex;
+    width: 10px !important ; 
+    height: 10px !important ;
+    border: 1px solid #151618 !important ;
+    margin-right: 10px;
+    cursor: pointer; /* Добавляем указатель */
+    align-items: center;
+   
+}
+
+.checkbox:checked + .checkbox-style::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #151618;
+    
+}
+
+.prioritise{
+    padding: 150px 0 ;
+}
+.prioritise_list{
+    display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    text-align: center;
+    gap: 30px 30px !important ;
+    flex-wrap: wrap;
+    /* margin: 0 auto ; */
+    padding: 0 !important ;
+
+}
+
+.prioritise__title{
+font-size: 30px;
+margin-bottom: 10px;
+font-weight: 300;
+}
+
+.prioritise__text{
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.footer{
+  padding: 100px 0 20px;
+  background-color: #f7f2ea;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.footer__bottom{
+    display: flex;
+}
+
+.footer__copy{
+    margin-right: 192px;
+    font-size: 16px;
+}
+
+.footer__inner{
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0 32px;
+   
+}
+.partners-logo{
+    display: flex;
+    align-items: center !important ;
+    gap:  0 20px ;
+}
+.footer__blockquote-text{
+    margin: 0;
+}
+.footer__contacts-title{
+    margin-top: 17px;
+}
+
+.footer__products-title, .footer__products-title .footer__contacts-title{
+font-size: 24px;
+font-family: 'Cormorant', serif;
+margin-bottom: 50px;
+font-weight: 400;
+
+}
+
+.footer__products-item{
+margin-bottom: 20px;
+width: 150px;
+}
+
+
+.footer__blockquote-text{
+    margin-bottom: 20px;
+    /* margin-top: 80px; */
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.footer__blockquote-author{
+    font-size: 12px;
+    font-style: normal;
+   
+}
+.footer__blockquote-author span{
+display: block;
+}
+
+.footer__nav{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_contacts-text{
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.footer__nav-phone{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer__nav-logo{
+    /* margin-right: 40px; */
+}
+.footer__nav-phone, .footer__nav-email{
+font-size: 13px;
+position: relative;
+padding-left: 32px;
+}
+
+.footer__nav-phone::before,
+.footer__nav-email::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 22px;
+    height: 16px;
+    background-image: url(../../Images/email.svg);
+}
+
+
+.footer__nav-phone::before{
+background-image: url(../../Images/phone.svg);
+width: 20px;
+height: 20px;
+}
+
+.footer__social-list{
+    padding: 0;
+  display: flex;
+  margin-left: 41px;
+  align-items: center;
+  gap: 0 15px;
+  padding-top: 50px;
+    
+}
+
+.footer__nav-contacts{
+    margin-top: 18px ;
+    margin-left: 40px;
+}
+.footer__social-item{
+    margin-right: 15px;
+}
+
+.footer__products{
+    padding: 0px ;
+   
+}
+
+.footer__company{
+    padding: 0 !important ;
+    
+}
+
+
+.logo-footer{
+   width: 50px;
+}
+
+ .footer_contacts-text{
+    font-size: 13px;
+    margin-bottom: 20px;
+    width: 270px !important ;
+    display: inline-block ;
+}

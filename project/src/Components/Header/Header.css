@@ -82,6 +82,7 @@ display: none;
     font-weight: 400;
     font-size: 18px;
     padding: 0;
+
     
      
 }
@@ -91,6 +92,7 @@ display: none;
     align-items: center;
     gap: 0 13px;
     padding: 0;
+    
 }
 
 .user-actions__item-search{
