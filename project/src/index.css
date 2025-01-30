@@ -187,7 +187,7 @@ body, html {
     .assortment__list{
       
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: center !important ;
     }
     .reviews__item:last-child  {
       display: block;
@@ -523,6 +523,7 @@ margin: 0 auto ;
 
     .assortment{
       margin-bottom: 80px;
+      margin-right: 40px;
     }
     .reviews__item{
       flex-basis: 100% ;
