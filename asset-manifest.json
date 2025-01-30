@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Web-site-Tea/static/css/main.578db799.css",
+    "main.css": "/Web-site-Tea/static/css/main.ece4be46.css",
     "main.js": "/Web-site-Tea/static/js/main.018cc570.js",
     "static/media/Background.jpg": "/Web-site-Tea/static/media/Background.9cbea7eba560f55ea03f.jpg",
     "static/media/tea-1.png": "/Web-site-Tea/static/media/tea-1.4830669cf1a0bff033ad.png",
@@ -31,11 +31,11 @@
     "static/media/Vector-3.svg": "/Web-site-Tea/static/media/Vector-3.dd5cb7a95c003b93b360b66a289e9e9f.svg",
     "static/media/email.svg": "/Web-site-Tea/static/media/email.dc6b0902305d4a925314.svg",
     "static/media/Read.svg": "/Web-site-Tea/static/media/Read.f2d3ebbcfeebeac01666cede66e124fa.svg",
-    "main.578db799.css.map": "/Web-site-Tea/static/css/main.578db799.css.map",
+    "main.ece4be46.css.map": "/Web-site-Tea/static/css/main.ece4be46.css.map",
     "main.018cc570.js.map": "/Web-site-Tea/static/js/main.018cc570.js.map"
   },
   "entrypoints": [
-    "static/css/main.578db799.css",
+    "static/css/main.ece4be46.css",
     "static/js/main.018cc570.js"
   ]
 }
