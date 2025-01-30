@@ -256,6 +256,11 @@ body, html {
 
 }
 @media (max-width: 480px){
+  .header__inner{
+    padding-left: 40px !important ;
+    padding-right: 40px !important ;
+
+}
    .logo{
       margin-right: 0px ;
     }
